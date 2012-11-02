@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+# USAGE: addCommentsToCode.rb path-to-files path-to-strings-file
+
+require 'lazyLocalize'
+LazyLocalize.extractCommentsAndAddToCode(ARGV[0], ARGV[1])

@@ -1,0 +1,11 @@
+A simple Ruby gem for lazy Objective C developers who didn't add comments to their localized strings and have had a nice fellow team member add comments to the .strings file.
+
+The gem extracts the comments from the .strings file and inserts it into the code files wherever it finds a blank comment with the same key.
+
+Example usage:
+	lazyLocalize *.m Resources/en.lproj/Localizable.strings
+
+Author: 
+Ben Trengrove
+bentrengrove.com
+@bentrengrove
