@@ -3,7 +3,7 @@ class LazyLocalize
   # Add localization comments back into Objective C code!
     #
     # Example:
-    #   >> Hola.extractCommentsAndAddToCode("./*.m", "./Resources/en.lproj/Localizable.strings")
+    #   >> LazyLocalize.extractCommentsAndAddToCode("./*.m", "./Resources/en.lproj/Localizable.strings")
     #
     # Arguments:
     #   codeFilePath: (String)
